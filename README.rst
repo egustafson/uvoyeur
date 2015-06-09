@@ -18,6 +18,26 @@ Details of this repository, installation, configuration, operation:
 TBD
 
 
+Testing
+-------
+
+Designed to use Nose2 (https://nose2.readthedocs.org/en/latest/),
+built on top of Python's unittest framework.
+
+   > nose2
+
+
+Development
+-----------
+
+Install locally using:
+
+   > python3 setup.py develop --user
+
+See https://setuptools.pypa.io/en/latest/setuptools.html#automatic-script-creation
+
+This package uses Setuptools and prefers Python 3.
+
 
 .. Local Variables:
 .. mode: rst
