@@ -39,3 +39,9 @@ class HttpServer(object):
 
     def stop(self):
         print("uVoyeur HTTPServer - stop")
+
+
+
+## Local Variables:
+## mode: python
+## End:

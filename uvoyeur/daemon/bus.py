@@ -78,3 +78,8 @@ class Bus(object):
             raise exc
         return output
 
+
+
+## Local Variables:
+## mode: python
+## End:

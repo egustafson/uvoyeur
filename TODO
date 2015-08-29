@@ -1,0 +1,22 @@
+## Todo's
+
+1. Rename 'daemon' package to 'service'
+
+   A Voyeur "service" is a lightweight agent that runs as a daemon.
+   The service should be run on most hosts and act as a localhost
+   point of collection for Voyeur telemetry.  The service is then
+   configured where and how to upstream telemetry.  
+
+   The service can also store telemetry locally and may provide RESTy
+   search access to the telemetry.
+
+   The service should also have a journal like log of the telemetry so
+   that upstream agents can catch-up if they disconnect.  This
+   supports controlled restart and crash-restart of upstream agents.
+
+-
+
+
+## Local Variables:
+## mode: markdown
+## End:

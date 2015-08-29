@@ -32,3 +32,7 @@ def run():
     start(args)
     print('done.')
     
+
+## Local Variables:
+## mode: python
+## End:
